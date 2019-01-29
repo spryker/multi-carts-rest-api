@@ -13,7 +13,8 @@ use Spryker\Zed\CartsRestApiExtension\Dependency\Plugin\QuoteCreatorPluginInterf
 use Spryker\Zed\Kernel\Communication\AbstractPlugin;
 
 /**
- * @method \Spryker\Zed\MultiCartsRestApi\Business\MultiCartsRestApiBusinessFactory getFactory()
+ * @method \Spryker\Zed\MultiCartsRestApi\Business\MultiCartsRestApiFacadeInterface getFacade()
+ * @method \Spryker\Zed\MultiCartsRestApi\MultiCartsRestApiConfig getConfig()
  */
 class MultipleQuoteCreatorPlugin extends AbstractPlugin implements QuoteCreatorPluginInterface
 {

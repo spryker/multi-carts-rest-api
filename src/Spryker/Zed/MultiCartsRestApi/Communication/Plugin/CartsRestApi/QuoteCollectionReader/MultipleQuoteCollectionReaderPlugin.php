@@ -7,13 +7,14 @@
 
 namespace Spryker\Zed\MultiCartsRestApi\Communication\Plugin\CartsRestApi\QuoteCollectionReader;
 
-use Generated\Shared\Transfer\RestQuoteCollectionRequestTransfer;
 use Generated\Shared\Transfer\QuoteCollectionResponseTransfer;
+use Generated\Shared\Transfer\RestQuoteCollectionRequestTransfer;
 use Spryker\Zed\CartsRestApiExtension\Dependency\Plugin\QuoteCollectionReaderPluginInterface;
 use Spryker\Zed\Kernel\Communication\AbstractPlugin;
 
 /**
  * @method \Spryker\Zed\MultiCartsRestApi\Business\MultiCartsRestApiFacadeInterface getFacade()
+ * @method \Spryker\Zed\MultiCartsRestApi\MultiCartsRestApiConfig getConfig()
  */
 class MultipleQuoteCollectionReaderPlugin extends AbstractPlugin implements QuoteCollectionReaderPluginInterface
 {
